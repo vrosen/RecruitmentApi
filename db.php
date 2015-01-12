@@ -12,7 +12,7 @@ class Db{
     protected $servername   =   'localhost';
     protected $username     =   'root';
     protected $password     =   '';
-    protected $dbname       =   'recruitment';
+    protected $dbname       =   'db';
 
 
 

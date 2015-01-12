@@ -1,0 +1,8 @@
+Options +FollowSymlinks
+
+RewriteEngine on
+
+RewriteRule    ^jobs/([A-Za-z0-9-]+)/?$    index.php?jobs=$1    [NC,L]
+RewriteRule    ^candidates/([A-Za-z0-9-]+)/?$    index.php?candidates=$1    [NC,L]
+RewriteRule    ^candidates/review/([A-Za-z0-9-]+)/?$    index.php?review=$1    [NC,L]
+RewriteRule    ^candidates/search/([A-Za-z0-9-]+)/?$    index.php?search=$1    [NC,L]
